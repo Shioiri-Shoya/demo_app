@@ -235,3 +235,4 @@ def analytics_page(product_data, similarity_data):
             final_chart += connecting_chart
 
         st.altair_chart(final_chart, use_container_width=True)
+        
